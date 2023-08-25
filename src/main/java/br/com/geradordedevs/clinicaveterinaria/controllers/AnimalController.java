@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/animal")
+@CrossOrigin(origins = "*")
 public class AnimalController {
 
     @Autowired
